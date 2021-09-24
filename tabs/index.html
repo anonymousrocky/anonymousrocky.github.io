@@ -166,7 +166,7 @@
 
       <span id="mode-toggle-wrapper" class="order-1">
         <!--
-  Switch the mode between ligh and dark.
+  Switch the mode dark.
 -->
 
 <i class="mode-toggle fas fa-adjust"></i>
@@ -218,11 +218,6 @@
     setDark() {
       $('html').attr(ModeToggle.MODE_KEY, ModeToggle.DARK_MODE);
       sessionStorage.setItem(ModeToggle.MODE_KEY, ModeToggle.DARK_MODE);
-    }
-
-    setLight() {
-      $('html').attr(ModeToggle.MODE_KEY, ModeToggle.LIGHT_MODE);
-      sessionStorage.setItem(ModeToggle.MODE_KEY, ModeToggle.LIGHT_MODE);
     }
 
     clearMode() {
